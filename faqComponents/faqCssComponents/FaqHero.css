@@ -1,0 +1,143 @@
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      overflow-x: hidden;
+  }
+
+  .FaqImageSection {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(90deg, #00B4DB, #0083B0);
+  }
+
+  .ImageSection img {
+      width: 200px;
+      
+  }
+
+  .navbaarContainer {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin-left: 235px;
+      border-radius: 10px 0 0 0;
+      background-image: linear-gradient(315deg, #30AADD, #FFFFFF);
+      
+  }
+
+  .navbaar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 10px;
+      cursor: pointer;
+  }
+
+  .navbaar li {
+    list-style: none;
+    text-transform: uppercase;
+    border-bottom: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;  
+  }
+  
+  .listStyle{
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .faqMiddlesection {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  }
+   
+  .faqQSymbal{
+     font-size: 25px;
+  }
+
+  .faqSquarebg {
+      width: 132px;
+      height: 40px;
+      background-image: linear-gradient(315deg, #30AADD, #FFFFFF);
+      border-radius:  0 0 10px 0;
+
+  }
+
+  .active {
+     border-bottom: 4px solid #00A1C9;
+     transition: 0.5s ease-in-out;
+     border-radius: 10px;
+  }
+
+  .navbaar a {
+      text-decoration: none;
+  }
+
+   
+
+   
+
+
+  .faqlinebg {
+      width: 100%;
+      height: 8px;
+       background-color: white;
+      border-radius: 10px;
+      margin-top: 36px;
+  }
+
+  .faqQuestionAnswer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+     
+       
+  }
+
+  .faqCenterContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 80%;
+      border-left: 2px solid skyblue;
+      padding: 10px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .faqAnswer {
+      display: flex;
+      gap: 10px;
+      font-family: sans-serif;
+      color: #a9a9a9;
+      font-size: large;
+  }
+  .faqAnswer h4 {
+    padding: 9px;
+  }
+
+  .faqCenterQuestion {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #778899;
+      font-family: sans-serif;
+
+  }
+
+  .faqHeight {
+      height: 20px;
+      width: 2px;
+      background-color: #30AADD;
+  }
+   
+
+   
